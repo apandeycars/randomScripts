@@ -6,7 +6,7 @@ inputData <- read.csv("updated_records.csv")
 inputData$origins <- paste(inputData$Rep.Latitude, ',', inputData$Rep.Longitude, sep = "")
 inputData$destinations <- paste(inputData$Account.Latitude, ',', inputData$Account.Longitude, sep = "")
 
-api_key = "AIzaSyC8YzyKXqSlSfq7hPuH47LQ2914zbHF6PI"
+api_key = ""
 
 buildURL <- function(origins, destinations, apiKey = NULL) {
   root <- "https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins="
