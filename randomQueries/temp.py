@@ -12,7 +12,7 @@ import urllib
 
 
 def main(query):
-    api_key = 'AIzaSyATtq6GpvIxrbl-EWVyD_0xzVKFwNaFQlI'
+    api_key = ''
     service_url = 'https://kgsearch.googleapis.com/v1/entities:search'
 
     params = {
